@@ -1,0 +1,23 @@
+
+{
+  "name": "Layout Inspector",
+  "version": "1.0.0",
+  "description": "Measure your page in an easy way.",
+  "minimum_chrome_version": "34",
+  "background": {
+    "persistent": false,
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "http://*/",
+    "https://*/",
+    "tabs"
+  ],
+  "browser_action": {
+  },
+  "icons": {
+    "24": "ic_straighten_black_24dp_1x.png",
+    "48": "ic_straighten_black_24dp_2x.png"
+  },
+  "manifest_version": 2
+}

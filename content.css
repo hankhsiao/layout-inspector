@@ -1,0 +1,31 @@
+.ruler-selecting-box {
+  border-top: 1px solid #E91E63;
+  border-left: 1px solid #E91E63;
+  position: absolute;
+}
+
+.ruler-info-box {
+  background-color: #E3F2FD;
+  font-size: 11px;
+  margin: 0 4px;
+  padding: 4px;
+  position: absolute;
+}
+
+.ruler-distance-box {
+  border-left: 1px solid #F8BBD0;
+  border-top: 1px solid #F8BBD0;
+  line-height: 10px;
+  position: absolute;
+}
+
+.ruler-distance-box > span {
+  background-color: rgba(0,0,0,.7);
+  color: white;
+  font-size: 10px;
+  opacity: .7;
+}
+
+.ruler-distance-box > span:hover {
+  opacity: 1;
+}
